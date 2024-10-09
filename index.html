@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" charset="UTF-8"/>
+    <title>添加软件源</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-image: url('https://1279323536.github.io/repo/background.png');  /* 背景图片 */
+            background-size: cover; /* 覆盖整个页面 */
+            background-position: center; /* 居中显示 */
+            background-repeat: no-repeat; /* 不重复 */
+            background-attachment: fixed; /* 固定背景 */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            flex-direction: column;
+        }
+        .main-bg {
+            background-color: rgba(255, 255, 255, 0.2); /* 半透明背景 */
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            width: 80%;
+            max-width: 400px;
+            margin-top: 65px;  /* 向上移动div */
+            text-align: center; /* 所有文字居中 */
+            margin: auto; /* 自动边距 */
+        }
+        h1 {
+            color: #333;
+            margin-bottom: 20px; /* 标题下边距 */
+        }
+        .legend {
+            color: #666;
+            font-size: 16px;
+            margin-top: 20px;
+            display: block; /* 使legend为块级元素 */
+        }
+        .add-button {
+            display: block; /* 使链接表现为块级元素 */
+            background-color: #5cb85c;
+            color: #fff;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 16px;
+            transition: background-color 0.3s;
+            margin: 20px auto; /* 按钮居中 */
+        }
+        .add-button:hover {
+            background-color: #4cae4c;
+        }
+        .credit-link {
+            color: #5cb85c;
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+        .credit-link:hover {
+            color: #4cae4c;
+        }
+    </style>
+</head>
+<body>
+    <div class="main-bg">
+        <h1>深情冰美式🌙 Repo</h1>
+        <p class="legend">添加软件源到</p>
+        <form action="#" method="post">
+            <a href="sileo://source/https://1279323536.github.io/repo/" class="add-button">Sileo</a> 
+        </form>
+</body>
+</html>
