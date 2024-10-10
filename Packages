@@ -1,3 +1,103 @@
+Package: byg.iosios.net.leftpan.rootless
+Version: 1.0-6
+Architecture: iphoneos-arm64
+Maintainer: 搬运工
+Depends: mobilesubstrate, preferenceloader, com.opa334.altlist (>= 1.0.4)
+Filename: ./debs/左滑返回-Rootless.1.0-6.deb
+Size: 44560
+MD5sum: eb014b38696adf83242d0207612a8b21
+SHA1: bbdb1b98bc42cc9e281e875d69bcdecbb34bd3b4
+SHA256: 3a9b34db215e9d054e02e1c218d16638d06ede5f7f8e0293c04042f53eadb5de
+Section: 系统增强
+Priority: optional
+Description: 本插件的作用是左滑返回上一页面。苹果自带的右滑有点不符合我们国人使用习惯，所以大神就开发出这个左滑手势插件，直接左滑返回上一个界面，非常的好用！无效的软件请解除屏蔽插件注入！但也不是所有软件都能用，自行体验！
+Author: Mao
+Icon: https://chinesebuilding.club/pic/cydia.png
+Name: 左滑返回-Rootless
+Sponsor: 搬运工
+
+Package: com.82flex.touchvis
+Version: 3.10
+Architecture: iphoneos-arm64
+Maintainer: Lessica <82flex@gmail.com>
+Installed-Size: 3132
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
+Filename: ./debs/Touch-Viz.3.10.deb
+Size: 714368
+MD5sum: 7159e019c50a7861f901bc6b729fa2ab
+SHA1: 64aba88ceb6ea3e2fb0ddcec8398aa3bc143578c
+SHA256: d47e4f65ac48d1963cf54d1f489e6e6f7b58dfa1e2b0479d213981ed8cd29ae2
+Section: Tweaks
+Description: Display your touch interactions!
+Author: Lessica <82flex@gmail.com>
+Name: Touch-Viz
+
+Package: com.dumpapp.wechat-rootless
+Version: 2.0.1
+Architecture: iphoneos-arm64
+Maintainer: WeChat
+Installed-Size: 24000
+Depends: mobilesubstrate, firmware (>= 12.0)
+Filename: ./debs/锤子助手-Rootless.2.0.1.deb
+Size: 9332380
+MD5sum: f986c09af1a226fccf90d41467208204
+SHA1: 67317f5f825b3ac0c03736f0a6ad2859e70d53b5
+SHA256: 1ce0ae6d7e956568b67976620f8207a1e28f3343b9fc5e27e4071da8cdc594a1
+Section: Tweaks
+Description: 锤子助手插件
+Author: DumpApp
+Name: 锤子助手-Rootless
+
+Package: com.jontelang.snapper3
+Version: 1.2.1
+Architecture: iphoneos-arm64
+Maintainer: Jonathan Winger-lang
+Installed-Size: 4148
+Depends: mobilesubstrate, firmware (>= 14.0), preferenceloader
+Conflicts: com.jontelang.snapper, com.jontelang.snapper2.packix, xyz.cypwn.snapperfr33
+Filename: ./debs/Snapper3.1.2.1.deb
+Size: 1023508
+MD5sum: 82ec29d05c25ea965ad5ff1e271e925a
+SHA1: bbcb9167c117aab2f001db46db36cf6c8a95871c
+SHA256: b6f847bc7eedc219ee8d0441822f3da2aecee0bcb2dc87d9a032fa74aa2791cb
+Section: Tweaks
+Description: Pin screenshots on the screen.
+Author: Jonathan Winger-lang
+Name: Snapper 3
+
+Package: com.lclrc.recordanywhere
+Version: 1.1.0
+Architecture: iphoneos-arm64
+Maintainer: Muirey03 & lclrc
+Installed-Size: 168
+Depends: mobilesubstrate
+Filename: ./debs/锁屏录屏RecordAnywhere.1.1.0.deb
+Size: 4556
+MD5sum: c4cb346b93c05664e78d7314b6207c3b
+SHA1: e254b055766e9e7770eca2083d523e4fd7c131e4
+SHA256: 357bbe24f30f3887f2880185bf570a9021f8d12feb328023228380a742d61ef2
+Section: Tweaks
+Description: 使手机在锁屏状态也可以继续录屏。修复支持Dopamine，感谢原作者提供的思路。
+Author: Muirey03 & lclrc
+Name: 锁屏录屏RecordAnywhere
+
+Package: com.lclrc.squidgesturepro
+Version: 2.5.3
+Architecture: iphoneos-arm64
+Maintainer: SquidForce
+Installed-Size: 7324
+Depends: mobilesubstrate, preferenceloader, firmware (>= 14.0)
+Conflicts: com.lclrc.squidgesture
+Filename: ./debs/SquidGesturePro.2.5.3.deb
+Size: 2165752
+MD5sum: 8a40f29b0800f7df246aa880f1334d76
+SHA1: e064758c62c96bd450bccf9bacddc63331736168
+SHA256: 2dc020db8740d35d7a3472ef3e0dee3b368c666e8a26af81114ae7e0fc0ac7cd
+Section: Tweaks
+Description: Gestures
+Author: SquidForce
+Name: SquidGesture Pro
+
 Package: com.liuf.jpyj
 Version: 0.0.1
 Architecture: iphoneos-arm64
@@ -13,4 +113,222 @@ Section: Tweaks
 Description: 系统键盘圆角
 Author: liuf <(null)>
 Name: 系统键盘圆角
+
+Package: com.p2kdev.tinge
+Version: 1.2.2
+Architecture: iphoneos-arm64
+Maintainer: P2KDev <p2kdev@gmail.com>
+Installed-Size: 436
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader, org.thebigboss.libcolorpicker
+Filename: ./debs/Tinge.1.2.2.deb
+Size: 40976
+MD5sum: 95c01087e8d561850952eb0a75d4d833
+SHA1: e7bf63a507d4643f04e7f3ca85df2cf9b7af471d
+SHA256: 7898997a5672b3679a90b49f264a0e7fb05475bc6fe0cd4575a01a56ea3751ee
+Section: Tweaks
+Description: Color your badges with Perfection!
+Author: P2KDev <p2kdev@gmail.com>
+Icon: file:///Library/PreferenceBundles/TingePrefs.bundle/Icon@2x.png
+Name: Tinge
+
+Package: com.ps.smoothcursorios13
+Version: 0.0.1
+Architecture: iphoneos-arm64
+Maintainer: PoomSmart
+Installed-Size: 168
+Depends: mobilesubstrate, firmware (>= 6.0)
+Conflicts: org.thebigboss.smoothcursor
+Filename: ./debs/SmoothCursoriOS13+.0.0.1.deb
+Size: 3084
+MD5sum: 7921561ece6bbb6b4f184b898930f5c5
+SHA1: d03e3a1d7dc5c068ab49a4ad02c53aace86f8769
+SHA256: edea1a2c7686f28bd4e6d7a02025cdd905e2accbd457c0dd52b74f4eff185c49
+Section: Tweaks
+Description: Office 2013-styled cursor animation.
+Author: PoomSmart
+Name: SmoothCursor (iOS 13+)
+
+Package: com.spark.snowboard
+Version: 1.5.26-Beta4-rootless
+Architecture: iphoneos-arm64
+Maintainer: Spark
+Installed-Size: 3236
+Depends: mobilesubstrate, preferenceloader
+Conflicts: anemoneteam.anemone, com.anemonetheming.anemone, winterboard
+Replaces: anemoneteam.anemone, com.anemonetheming.anemone, winterboard
+Provides: anemoneteam.anemone, com.anemonetheming.anemone, winterboard
+Filename: ./debs/SnowBoard.1.5.26-Beta4-rootless.deb
+Size: 1334752
+MD5sum: 3515b9871864c7fd97b77ccc912a90cc
+SHA1: 31233946da44536321d4400f956d2599bacaa997
+SHA256: fc26d25303c2d26e63112743326594e1a963a8bdbea0a0913237b8ab9882f880
+Section: Tweaks
+Description: Snowboard theming engine
+Author: Spark & Dennis D. Bednarz
+Name: SnowBoard
+
+Package: com.spark.snowboard.dock
+Version: 1.1.3~Beta4-rootless
+Architecture: iphoneos-arm64
+Maintainer: Spark
+Installed-Size: 440
+Depends: mobilesubstrate, com.spark.snowboard (>= 1.2.100)
+Filename: ./debs/SnowBoardDockExtension.1.1.3~Beta4-rootless.deb
+Size: 30968
+MD5sum: 6e8ed9d9c9f94657ed459fb8f7d2376e
+SHA1: fe8c4d2a3afb2a6a438beb97d598f38e06b2e8cf
+SHA256: b52c5aab3625edca9dce5a8df1a345e5bb5e7541f301cc89948f2754fa0a238d
+Section: SnowBoard Extensions
+Description: Dock for SnowBoard
+Author: Spark
+Name: SnowBoard Dock Extension
+
+Package: com.spark.snowboard.effects
+Version: 1.2.2-Beta2-rootless
+Architecture: iphoneos-arm64
+Maintainer: Spark
+Installed-Size: 412
+Depends: mobilesubstrate, com.spark.snowboard (>= 1.2.100)
+Filename: ./debs/SnowBoardIconEffectsExtension.1.2.2-Beta2-rootless.deb
+Size: 33180
+MD5sum: 68022e65918172547bd74e53b27ddaa4
+SHA1: 9d308e29bcfdc085f5e7dcefc06e0f342e80e25b
+SHA256: 3e74824b6f49ffb5ec9dfa12672b3d7791cb8f14e3d1371e11a2d0ae165c2495
+Section: SnowBoard Extensions
+Description: Icon Effects for SnowBoard
+Author: Spark
+Name: SnowBoard Icon Effects Extension
+
+Package: com.spark.snowboard.labels
+Version: 1.1.1~Beta4-rootless
+Architecture: iphoneos-arm64
+Maintainer: Spark
+Installed-Size: 432
+Depends: mobilesubstrate, com.spark.snowboard (>= 1.2.100)
+Filename: ./debs/SnowBoardLabelsExtension.1.1.1~Beta4-rootless.deb
+Size: 25492
+MD5sum: 9065bb00e884263d48fdf1278980a0c5
+SHA1: 15e41a18eaeac1345fc73cb1c2614a193b24e0e3
+SHA256: 0758969af73b2a2c2fc41c6b833264ee7f3b4f1e402609e856cefcfa2a5ad38a
+Section: SnowBoard Extensions
+Description: Labels for SnowBoard
+Author: Spark
+Name: SnowBoard Labels Extension
+
+Package: com.spark.snowboard.masks
+Version: 1.2.2-Beta2-rootless
+Architecture: iphoneos-arm64
+Maintainer: Spark
+Installed-Size: 340
+Depends: mobilesubstrate, com.spark.snowboard (>= 1.2.100)
+Filename: ./debs/SnowBoardIconMasksExtension.1.2.2-Beta2-rootless.deb
+Size: 18848
+MD5sum: 0cf2b3cd9200311a900ae72ba66fc5d1
+SHA1: d7a867a2afeaad8cd15a125c590f301a7d9fdad5
+SHA256: fc174f175029b82a022a50c51f17bfcf38791098f3f3775d831206ab54983d6e
+Section: SnowBoard Extensions
+Description: Icon masks for SnowBoard
+Author: Spark
+Name: SnowBoard Icon Masks Extension
+
+Package: com.spark.snowboard.presetextension
+Version: 1.1.0~Beta4-rootless
+Architecture: iphoneos-arm64
+Maintainer: 搬运工
+Installed-Size: 488
+Depends: mobilesubstrate, com.spark.snowboard (>> 1.2.22)
+Filename: ./debs/SnowBoardPresetExtension快速切换保存的主题-Rootless.1.1.0~Beta4-rootless.deb
+Size: 43340
+MD5sum: d8346a25abd98ff7dc4d892a9ad5003d
+SHA1: 275beeab4a2336bfb38c9225c6bc8f8e89e71457
+SHA256: 788db37140fd3ea2834395c054614207cdd9c55ee2d9b2fccd66b768eb0c9fee
+Section: 杂七杂八
+Description: SnowBoard Presets Extension快速切换保存的滑雪板主题
+Author: Spark
+Icon: https://chinesebuilding.club/pic/cydia.png
+Name: SnowBoard Preset Extension快速切换保存的主题-Rootless
+Sponsor: 搬运工
+
+Package: com.spark.snowboard.settingsicons
+Version: 1.0.26~Beta3-rootless
+Architecture: iphoneos-arm64
+Maintainer: Spark
+Installed-Size: 340
+Depends: mobilesubstrate, com.spark.snowboard (>= 1.2.100)
+Filename: ./debs/SnowBoardSettingsIconsExtension.1.0.26~Beta3-rootless.deb
+Size: 17684
+MD5sum: 3af02bded9acb641e0f6a8606c1c4ac0
+SHA1: 29aa238bb147ad6420a00fe6d988784f4c4bbe02
+SHA256: 03000133b5e01c1147d1aca53961a84fd74367074f17f9d5a0682582c5705a28
+Section: SnowBoard Extensions
+Description: Settings Icons for SnowBoard
+Author: Spark
+Name: SnowBoard Settings Icons Extension
+
+Package: com.spark.snowboard.statusbar
+Version: 1.1.0-Beta4-rootless
+Architecture: iphoneos-arm64
+Maintainer: Spark
+Installed-Size: 364
+Depends: mobilesubstrate, com.spark.snowboard (>= 1.2.100)
+Filename: ./debs/SnowBoardStatusBarExtension.1.1.0-Beta4-rootless.deb
+Size: 26812
+MD5sum: 582cee6ab2cf9b67a5f884248efe2cb5
+SHA1: 6cd10b6a257f85050a971a444075b013b71503c0
+SHA256: 394885920a24dfb816734abfd90a0a3a04a559aa53f4287327d1fa595b3c1832
+Section: SnowBoard Extensions
+Description: StatusBar for SnowBoard
+Author: Spark
+Name: SnowBoard StatusBar Extension
+
+Package: com.spark.snowboard.ui
+Version: 1.3.0~Beta2-rootless
+Architecture: iphoneos-arm64
+Maintainer: Spark
+Installed-Size: 476
+Depends: mobilesubstrate, com.spark.snowboard (>> 1.2.22)
+Filename: ./debs/SnowBoardUIExtension.1.3.0~Beta2-rootless.deb
+Size: 65544
+MD5sum: 756dd80f76905d54d69ab38632226072
+SHA1: 23193093d9e3255e6eea2e54f65b3c44f5535e58
+SHA256: 03573bb9495341c1eff2844fb59745ce0d565dcf2799c28317a1283060c8ed30
+Section: SnowBoard Extensions
+Description: UI Extension for SnowBoard
+Author: Spark
+Name: SnowBoard UI Extension
+
+Package: com.xybp888.callassist16.dopamine
+Version: 1.6.4
+Architecture: iphoneos-arm64
+Maintainer: xybp888
+Depends: firmware (>= 15.0), preferenceloader, com.opa334.libsandy
+Filename: ./debs/电话助手iOS16-正式版Rootless.1.6.4.deb
+Size: 2682460
+MD5sum: a1ed1473bb3dfe5b586b9058b9b9e79a
+SHA1: f96814c69f39953e8393c6ceccda72ae8cc6e6db
+SHA256: f4e334c423f5b239a41258b6e05e572a4e4068ec4e9868f1b5a100a58e03aa46
+Section: Tweaks
+Priority: optional
+Description: 电话助手授权版本,通话录音,通话记录合并,T9双卡选卡拨号键盘,短信双卡选卡,来去电归属地,黑名单,骚扰拦截,状态栏图标替换,时间格式修改,常用小功能等强大插件
+Author: xybp888
+Depiction: https://apt.htv123.com/view/140
+Name: 电话助手iOS16-正式版(Rootless)
+Sileodepiction: https://apt.htv123.com/sileo/140
+
+Package: com.yourepo.themepro.themepro-310-rootless
+Version: 3.1.0
+Architecture: iphoneos-arm64
+Maintainer: MustangYM <MustangYM@yeah.net>
+Depends: mobilesubstrate
+Conflicts: themepro
+Replaces: themepro
+Filename: ./debs/ThemePro-3.1.0-Rootless.3.1.0.deb
+Size: 6273020
+MD5sum: 8bb3c47f3db6fbe7badc50549a49c352
+SHA1: 0044958d3b2b177eb736707dc310d8f8ecc3e5ea
+SHA256: 0521554d73376387109f9b71176ca83ed684b55144c29a4910a83c9ba4e49b7c
+Section: Tweaks
+Description: 由ThemePro团队开发,用于加载微信美化主题,安装完成重启微信生效!
+Author: MustangYM <mm13299079785@gmail.com>
+Name: ThemePro-3.1.0-Rootless
 
