@@ -16,6 +16,57 @@ Icon: https://chinesebuilding.club/pic/cydia.png
 Name: 左滑返回-Rootless
 Sponsor: 搬运工
 
+Package: com.25mao.miyou.rootless
+Version: 3.8-0
+Architecture: iphoneos-arm64
+Maintainer: admin@25mao.com
+Depends: firmware (>= 5.0)
+Filename: ./debs/微信助手-Rootless.3.8-0.deb
+Size: 10161816
+MD5sum: bcb5811eccb27b79f92b1ef8eeb3bb35
+SHA1: 322f59a90d37e7e122da63a353751c566bf346a4
+SHA256: 098e8e7cca49508018bd81c60dd02681d2ba934fd7c49a3966cdcccaff019028
+Section: Rootless
+Priority: optional
+Description: 微信助手-Rootless版
+Author: Mao
+Name: 微信助手-Rootless
+Sponsor: admin@25mao.com
+
+Package: com.25mao.msgfilt.rootless
+Version: 1.0-5.1
+Architecture: iphoneos-arm64
+Maintainer: admin@25mao.com
+Depends: firmware (>= 5.0)
+Filename: ./debs/消息屏蔽助手-Rootless.1.0-5.1.deb
+Size: 122456
+MD5sum: b55c13edb495cbcfe03987dd46f0b05a
+SHA1: b2ffb394c6964f84300ee5e1e68683ed5e4ffa21
+SHA256: c819193c43ed63bd30b3bd55c9e764422fe060a56e8166191a01ad4237320d04
+Section: Rootless
+Priority: optional
+Description: 消息屏蔽助手
+Author: Mao
+Name: 消息屏蔽助手-Rootless
+Sponsor: admin@25mao.com
+
+Package: com.25mao.wcplugins.rootless
+Version: 0.1-3
+Architecture: iphoneos-arm64
+Maintainer: admin@25mao.com
+Depends: firmware (>= 5.0)
+Filename: ./debs/微信插件管理-Rootless.0.1-3.deb
+Size: 19616
+MD5sum: b030a1246339f21505ef39dbab35eb42
+SHA1: 4fb82b6ac5f405ca2bc01bfba677c2baf4c83b49
+SHA256: fcb83edfeff2bdf2aece08a27429ecef13c53e81998efa6a4384f27992f048c0
+Section: Rootless
+Priority: optional
+Description: 插件管理-Rootless
+Author: Mao
+Name: 微信插件管理-Rootless
+Sponsor: admin@25mao.com
+
 Package: com.82flex.touchvis
 Version: 3.10
 Architecture: iphoneos-arm64
@@ -32,6 +83,23 @@ Description: Display your touch interactions!
 Author: Lessica <82flex@gmail.com>
 Name: Touch-Viz
 
+Package: com.curtin.pkc.rootless
+Version: 0.6-0
+Architecture: iphoneos-arm64
+Maintainer: Curtin <curtinlv@126.com>
+Depends: firmware (>= 5.0)
+Filename: ./debs/PKC_无根.0.6-0.deb
+Size: 594856
+MD5sum: a682183c9d9802187599f548f86bef8f
+SHA1: eacfb5c2d2b17d32179b9439272efa338275cd67
+SHA256: f05ee256740f0217c5b47d0f8f8be72d1bab1d2712510aacdddbebf401de24d9
+Section: PKC-插件
+Priority: optional
+Homepage: https://github.com/curtinlv
+Author: Curtin <curtinlv@126.com>
+Icon: https://raw.githubusercontent.com/curtinlv/PKCUpdateLog/main/img/pkc_4_135x135.png
+Name: PKC_无根
+
 Package: com.dumpapp.wechat-rootless
 Version: 2.0.1
 Architecture: iphoneos-arm64
@@ -47,6 +115,21 @@ Section: Tweaks
 Description: 锤子助手插件
 Author: DumpApp
 Name: 锤子助手-Rootless
+
+Package: com.hbwechathelper.ailun
+Version: 1.7.5
+Architecture: iphoneos-arm64
+Maintainer: HuangBai <QQ:1343309363@qq.com>
+Depends: mobilesubstrate
+Filename: ./debs/黄白助手微信插件-Rootless.1.7.5.deb
+Size: 9410832
+MD5sum: c43d74edcd9548177b9839c3f4c1576b
+SHA1: 6195f660044d34aed128dc2823514a741390ea1c
+SHA256: 79017682e59057e21c1fc3ae370a3542f3aa148da97042978ea1adb50ff2d290
+Section: Mao
+Description: 黄白助手-微信插件                                                                                                                                                                 一个微信插件文本转语音以及点歌朋友圈一键点赞等诸多功能（发送网络语录舔狗日记骂人等文案或者4K原图手绘壁纸等，抢私聊红包，自定义信息尾巴，自定义拍一拍 百变小尾巴 实时尾巴时间等功能
+Author: HuangBai <QQ:1343309363@qq.com>
+Name: 黄白助手(微信插件)-Rootless
 
 Package: com.jontelang.snapper3
 Version: 1.2.1
@@ -113,6 +196,22 @@ Section: Tweaks
 Description: 系统键盘圆角
 Author: liuf <(null)>
 Name: 系统键盘圆角
+
+Package: com.netskao.wechatnotiavatar
+Version: 1.2-5
+Architecture: iphoneos-arm64
+Maintainer: Nets
+Installed-Size: 2336
+Depends: firmware (>= 15.0), firmware (<< 17.0), mobilesubstrate
+Filename: ./debs/微信头像.1.2-5.deb
+Size: 523112
+MD5sum: dcb84c5cd08b2484f57aa110d8c040f6
+SHA1: 6962ecc3a8061d26cc070b673560b13b75a79ae2
+SHA256: d40165bbffb4c9d4327c740fbf487462e1f70229d0b3da626e72221319b7f90a
+Section: Netskao-Tweaks
+Description: Display Notification Avatars for WeChat App using iOS15+ APIs
+Author: Netskao
+Name: WeChatNotiAvatar
 
 Package: com.p2kdev.tinge
 Version: 1.2.2
@@ -296,6 +395,22 @@ Section: SnowBoard Extensions
 Description: UI Extension for SnowBoard
 Author: Spark
 Name: SnowBoard UI Extension
+
+Package: com.xx.dyhook
+Version: 2.0.6+2
+Architecture: iphoneos-arm64
+Maintainer: x✨
+Installed-Size: 10620
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/抖音图层.2.0.6+2.deb
+Size: 3742368
+MD5sum: 7a57c0eb6ba197844fc3591a0b054739
+SHA1: b894109ab91917677c5b7ed3baca77d76eaa69b6
+SHA256: 3b4d5afb80beed6eb2454852a80dc3fd35759858817e7898094bd3fc7422f551
+Section: Tweaks
+Description: 自用 越狱食用
+Author: x✨
+Name: 抖音图层
 
 Package: com.xybp888.callassist16.dopamine
 Version: 1.6.4
