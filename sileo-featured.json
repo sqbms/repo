@@ -4,19 +4,19 @@
  "itemCornerRadius": 10,
  "banners": [
   {
-   "url": "https://sqbms.github.io/repo/image/IMG_8339.JPG",
+   "url": "https://sqbms.github.io/repo/IMG_8339.JPG",
    "title": "",
    "package": "com.liuf.jpyj",
    "hideShadow": true
   },
   {
-   "url": "https://sqbms.github.io/repo/image/IMG_8338.JPG",
+   "url": "https://sqbms.github.io/repo/IMG_8338.JPG",
    "title": "",
    "package": "com.ash.fixrepairsystempower",
    "hideShadow": true
   },
   {
-   "url": "https://sqbms.github.io/repo/image/IMG_8340.JPG",
+   "url": "https://sqbms.github.io/repo/IMG_8340.JPG",
    "title": "",
    "package": "com.82flex.singlemute",
    "hideShadow": true
