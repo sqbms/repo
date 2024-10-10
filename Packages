@@ -750,6 +750,22 @@ Description: 自用 越狱食用
 Author: x✨
 Name: 抖音图层
 
+Package: com.xx.xhshook
+Version: 1.1.0-3
+Architecture: iphoneos-arm64
+Maintainer: x✨
+Installed-Size: 3196
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/小红薯.1.1.0-3.deb
+Size: 1113064
+MD5sum: 53a4651e3b4f84d0a358bbdfbeab7ad9
+SHA1: ac5843fce660e63019adbc67620d5b6a4885796b
+SHA256: c1b20801d9e6ffbab8124952a0f889f61b8776cea6a1a44944d5605946be3b73
+Section: Tweaks
+Description: 朋友需要才制作了此插件 APP设置界面右上角打开插件界面 或 双指长按设置界面 功能：默认移除一些广告 原生按钮无水印保存图片 视频 live图 评论区图片 长按文案复制
+Author: x✨
+Name: 小红薯
+
 Package: com.xybp888.callassist16.dopamine
 Version: 1.6.4
 Architecture: iphoneos-arm64
