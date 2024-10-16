@@ -486,22 +486,6 @@ Author: niceios
 Name: NiceHelper【Rootless】
 Sponsor: niceios
 
-Package: com.nx.appcardlite
-Version: 2.2.7
-Architecture: iphoneos-arm64
-Maintainer: Crassna
-Installed-Size: 940
-Depends: dev.theos.orion (>= 1.0.0), firmware (>= 12.2)
-Filename: ./debs/com.nx.appcardlite_2.2.7_iphoneos-arm64.deb
-Size: 189412
-MD5sum: 33fe0036eba22a51247fdb3701af8e98
-SHA1: 58147ee81bdac94c72f75692ce28515ab47cda8c
-SHA256: fcf469d92408e90c619dfd20cee92f9c10da66e13ff231c21c8f33cb2081691c
-Section: Tweaks
-Description: A !
-Author: Crassna
-Name: App Lecard
-
 Package: com.opa334.ccsupport
 Version: 1.3.13-2
 Architecture: iphoneos-arm64
