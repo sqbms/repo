@@ -241,21 +241,6 @@ Description: 锤子助手插件
 Author: DumpApp
 Name: 锤子助手-Rootless
 
-Package: com.hbwechathelper.ailun
-Version: 1.7.5
-Architecture: iphoneos-arm64
-Maintainer: HuangBai <QQ:1343309363@qq.com>
-Depends: mobilesubstrate
-Filename: ./debs/黄白助手微信插件-Rootless.1.7.5.deb
-Size: 9410832
-MD5sum: c43d74edcd9548177b9839c3f4c1576b
-SHA1: 6195f660044d34aed128dc2823514a741390ea1c
-SHA256: 79017682e59057e21c1fc3ae370a3542f3aa148da97042978ea1adb50ff2d290
-Section: Mao
-Description: 黄白助手-微信插件                                                                                                                                                                 一个微信插件文本转语音以及点歌朋友圈一键点赞等诸多功能（发送网络语录舔狗日记骂人等文案或者4K原图手绘壁纸等，抢私聊红包，自定义信息尾巴，自定义拍一拍 百变小尾巴 实时尾巴时间等功能
-Author: HuangBai <QQ:1343309363@qq.com>
-Name: 黄白助手(微信插件)-Rootless
-
 Package: com.hk.choicy.cn.rl
 Version: 1.4.6
 Architecture: iphoneos-arm64
