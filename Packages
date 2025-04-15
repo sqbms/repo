@@ -57,6 +57,62 @@ Icon: https://rootless.002599.xyz/web/icon/cn.zqbb.fix120hz
 Name: Hello 120Hz
 Sileodepiction: https://rootless.002599.xyz/web/cn.zqbb.fix120hz
 
+Package: com.25mao.leftpan.rootless
+Version: 1.0-6
+Architecture: iphoneos-arm64e
+Maintainer: admin@25mao.com
+Pre-Depends: rootless-compat (>= 0.9)
+Depends: mobilesubstrate, preferenceloader, com.opa334.altlist (>= 1.0.4)
+Filename: ./debs/左滑返回-Rootless_1.0-6_iphoneos-arm64e.deb
+Size: 46148
+MD5sum: cd0732c49aced4c300d1046a7a8f7218
+SHA1: e8eaf3f0d5e44a102b414b64d7feddc767166597
+SHA256: 71ec7612aa6d74002ba2e925b5e1faa8f7acb4a4307278b71c67d2beb7b22b43
+Section: Rootless
+Priority: optional
+Description: 左滑返回上一页面
+Author: Mao
+Name: 左滑返回-Rootless
+
+Package: com.25mao.miyou.rootlesss
+Version: 3.8-3
+Architecture: iphoneos-arm64e
+Maintainer: admin@25mao.com
+Pre-Depends: rootless-compat (>= 0.9)
+Depends: firmware (>= 5.0)
+Conflicts: com.25mao.miyou.rootless
+Filename: ./debs/微信助手_3.8-3_iphoneos-arm64e.deb
+Size: 8919732
+MD5sum: 0dd2454aa3587b7e41ab6d071f7de4bb
+SHA1: ecaae71a6445d101209770db68a88bbfd18a681c
+SHA256: 85fec3ed33a9f7d3afdf6ade7f70ed7a2ac458933395fd019d0267de2b26c58e
+Section: 微信插件
+Priority: optional
+Description: 老猫微信多功能插件
+Author: Mao
+Icon: https://TrollStoreX.Github.io/sileodepiction/mao/icon.png
+Name: 微信助手
+Sileodepiction: https://TrollStoreX.Github.io/sileodepiction/mao/js.json
+Sponsor: admin@25mao.com
+
+Package: com.25mao.wcplugins.rootless
+Version: 0.1-3
+Architecture: iphoneos-arm64e
+Maintainer: admin@25mao.com
+Pre-Depends: rootless-compat (>= 0.9)
+Depends: firmware (>= 5.0)
+Filename: ./debs/微信插件管理-Rootless_0.1-3_iphoneos-arm64e.deb
+Size: 20180
+MD5sum: 765ed337abc475e4f7add25d7b9a6c72
+SHA1: e0e12a772427af90420d2ee7f6310871b396dfc2
+SHA256: 87872b3e2df6ce78a92bf5be12826ca0d17c173b00560ccf707de324c4f39224
+Section: Rootless
+Priority: optional
+Description: 插件管理-Rootless
+Author: Mao
+Name: 微信插件管理-Rootless
+Sponsor: admin@25mao.com
+
 Package: com.82flex.removewidgetbg
 Version: 1.7
 Architecture: iphoneos-arm64e
@@ -74,6 +130,23 @@ Description: Remove the background of the widgets on the home screen.
 Author: Lessica <82flex@gmail.com>
 Name: Remove Widget Background
 
+Package: com.82flex.touchvis
+Version: 3.12
+Architecture: iphoneos-arm64e
+Maintainer: Lessica <82flex@gmail.com>
+Installed-Size: 3112
+Pre-Depends: rootless-compat (>= 0.9)
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
+Filename: ./debs/Touch-Viz_3.12_iphoneos-arm64e.deb
+Size: 704372
+MD5sum: f6f802bcc3fadeebb0773001cc21e808
+SHA1: e31b2d8061186a1b5eedea19e88277757d8a5d0c
+SHA256: bacb83ee55ea62040a65d92d6cb50489db3742986c986fefbe1991e2f5d367bb
+Section: Tweaks
+Description: Display your touch interactions!
+Author: Lessica <82flex@gmail.com>
+Name: Touch-Viz
+
 Package: com.be-huge.floating-view
 Version: 1.5.4-4
 Architecture: iphoneos-arm64e
@@ -90,6 +163,23 @@ Section: Tweaks
 Description: 分屏，不必太复杂，一切从简即可。
 Author: be-huge
 Name: floatingView
+
+Package: com.be-huge.wechat-push-msg-page
+Version: 0.0.1
+Architecture: iphoneos-arm64e
+Maintainer: be-huge
+Installed-Size: 232
+Pre-Depends: rootless-compat (>= 0.9)
+Depends: dev.theos.orion (>= 1.0.0), firmware (>= 12.2)
+Filename: ./debs/WechatPushMsgPage微信直达_0.0.1_iphoneos-arm64e.deb
+Size: 24168
+MD5sum: 04442383308b094e834c577d1c910dcf
+SHA1: 932cafe810caed2142e5ad76f6a8bb680296fdbd
+SHA256: a392909a0c6c6b935885d3cbd2767dd00da9dce961ae4ba05e58b34b55088bbb
+Section: Tweaks
+Description: 微信插件，弥补点击微信通知无法跳转到聊天界面。
+Author: be-huge
+Name: WechatPushMsgPage微信直达
 
 Package: com.curtin.pkc.rootless
 Version: 0.7-3
@@ -160,6 +250,23 @@ Author: b4db1r3 <nfive060@gmail.com>
 Name: OCD5 Lite(rootless)
 Sileodepiction: https://xiangfeidexiaohuo.github.io/sileodepiction/ocd5l/js.json
 
+Package: com.doki.kbstyle
+Version: 1.1
+Architecture: iphoneos-arm64e
+Maintainer: Doki
+Installed-Size: 372
+Pre-Depends: rootless-compat (>= 0.9)
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader (>= 2.2.3)
+Filename: ./debs/键盘DIY颜色_1.1_iphoneos-arm64e.deb
+Size: 34584
+MD5sum: 11c59451914fdb9beae735d7bd2ea169
+SHA1: 3b26d17045f5f7bcd3bd3840482da0ab4a4ea707
+SHA256: 0a2ff8ae040a244489867d507f18a2253bdad787bd0366756e4d25bb907fe72b
+Section: Tweaks
+Description: 让你的键盘更加花里胡哨！
+Author: Doki
+Name: 键盘DIY颜色
+
 Package: com.exile90.icleanerpros
 Version: 7.10.0
 Architecture: iphoneos-arm64e
@@ -180,6 +287,22 @@ Author: Ivano Bilenchi
 Icon: https://TrollStoreX.Github.io/sileodepiction/iCleanerPro/icon.png
 Name: iCleaner Pro
 Sileodepiction: https://TrollStoreX.Github.io/sileodepiction/iCleanerPro/js.json
+
+Package: com.hbwechathelper.ailun
+Version: 1.8.1
+Architecture: iphoneos-arm64e
+Maintainer: HuangBai <QQ:1343309363@qq.com>
+Pre-Depends: rootless-compat (>= 0.9)
+Depends: mobilesubstrate
+Filename: ./debs/黄白助手(微信插件)-Rootless_1.8.1_iphoneos-arm64e.deb
+Size: 22334000
+MD5sum: b196facd7717f672add83cced24a02d5
+SHA1: 5f9279b005d6871b0c488d1c1789baf8f9d126f9
+SHA256: 284a9e3719460f6fc1dee104413d2bc20b5769bf64e6997412d96ddb985ce037
+Section: Mao
+Description: 黄白助手-微信插件，点歌朋友圈一键点赞，禁用控件，设置布局大小，私聊发抢自己的红包，文本转语音，文案语录，群聊管理，朋友圈保存实况 Live 图，消息防撤回，艾特所有人，朋友圈自定义选取位置，消息双击复读，修改气泡，修改按钮图标，修改显示微信号，自动呼出键盘，微信运动一键点赞，头像转发好友，强制下载 dylib 文件，设置全局圆头像，百变消息小尾巴，朋友圈小尾巴，等诸多功能
+Author: HuangBai <QQ:1343309363@qq.com>
+Name: 黄白助手(微信插件)-Rootless
 
 Package: com.hk.crane.cn.rl
 Version: 1.3.9-1
@@ -348,6 +471,25 @@ Description: Customize the height of the bottom of the X-keyboard, the height of
 Author: Netskao
 Name: ClassicKeyboardXS
 Sileodepiction: https://jailrepo.initnil.com/Depictions/com.netskao.classickeyboardxs.json
+
+Package: com.netskao.wechatnotiavatars
+Version: 1.2-5
+Architecture: iphoneos-arm64e
+Maintainer: Nets
+Installed-Size: 2336
+Pre-Depends: rootless-compat (>= 0.9)
+Depends: firmware (>= 15.0), firmware (<< 17.0), mobilesubstrate
+Filename: ./debs/WeChatNotiAvatar 微信头像_1.2-5_iphoneos-arm64e.deb
+Size: 524368
+MD5sum: 153207d69eabbc557b4e7245130d7824
+SHA1: 9d661efb7627de4de2a42bb52427ca4e430f7114
+SHA256: f202f644dd0e6f8393f75d6b1c9a98898cd8bcad326fc366190cf4868b4d09d5
+Section: Netskao-Tweaks
+Description: 让微信消息通知显示微信好友头像，傻逼张小龙为什么不支持？
+Author: Netskao
+Icon: https://TrollStoreX.Github.io/sileodepiction/Wechat/icon.png
+Name: WeChatNotiAvatar 微信头像
+Sileodepiction: https://TrollStoreX.Github.io/sileodepiction/WeChatNotiAvatar/js.json
 
 Package: com.niceios.nicebarx16-roothide
 Version: 1.0.1.6-2
@@ -712,6 +854,43 @@ Author: 苏苏
 Icon: https://www.susubaby.top/images/Preferences.png
 Name: NoPreferencesTips
 
+Package: com.tencent.themeboxs
+Version: 2.0.2-1
+Architecture: iphoneos-arm64e
+Maintainer: WeChat
+Installed-Size: 3660
+Pre-Depends: rootless-compat (>= 0.9)
+Depends: mobilesubstrate (>= 0.9.5000)
+Conflicts: com.tencent.themebox
+Filename: ./debs/主题盒子_2.0.2-1_iphoneos-arm64e.deb
+Size: 3606380
+MD5sum: 0b485f5263c497a7ac23ced4b2fa1792
+SHA1: 60ac187ab38d6487ac458ad07a0d1b5d4096aafe
+SHA256: 6b5bf5875bc401b72490374bf2b5537147d368e45dfc50b6a328d4ace28171fc
+Section: 微信插件
+Description: 微信主题插件
+Author: WeChat
+Icon: https://TrollStoreX.Github.io/sileodepiction/Themebox/icon.png
+Name: 主题盒子
+Sileodepiction: https://TrollStoreX.Github.io/sileodepiction/Themebox/js.json
+
+Package: com.tiaotiao.wxkeyboarduihook
+Version: 2.0
+Architecture: iphoneos-arm64e
+Maintainer: TiaoTiao
+Installed-Size: 480
+Pre-Depends: rootless-compat (>= 0.9)
+Depends: mobilesubstrate, firmware (>= 14.0)
+Filename: ./debs/WXKeyboardUIHook_2.0_iphoneos-arm64e.deb
+Size: 108024
+MD5sum: 666270ff3b3f60b39cb27f70a351e3d6
+SHA1: e5e24d46a46c8365f1bb48c49e0ddc499c23ae32
+SHA256: bf053b6ff7429aa05dc63bc6b2b57104202d35bb5e39068211c073f273033021
+Section: Tweaks
+Description: WXKeyboardUIHook
+Author: TiaoTiao
+Name: WXKeyboardUIHook
+
 Package: com.udevs.dockx
 Version: 2.6.2
 Architecture: iphoneos-arm64e
@@ -730,6 +909,24 @@ Author: udevs
 Icon: https://udevsharold.github.io/repo/depictions/com.udevs.dockx/icon/icon.png
 Name: DockX
 Sileodepiction: https://lclrc.github.io/repo/depictions/native/com.udevs.dockx/depiction.json
+
+Package: com.xybp888.callassist16.dopamine.roothide
+Version: 1.7.2
+Architecture: iphoneos-arm64e
+Maintainer: xybp888
+Depends: firmware (>= 16.0), preferenceloader, com.opa334.libsandy
+Filename: ./debs/电话助手iOS16-正式版(Roothide)_1.7.2_iphoneos-arm64e.deb
+Size: 2693076
+MD5sum: ecaa628d08187cb5002a67d94a30af3b
+SHA1: f161325863a3738100598bf679b54639a87a8dd8
+SHA256: 035e8baf996b242b8e9d2198f877a9d76e272be7e4f9d6b61c5fba3ea8990b3b
+Section: Tweaks
+Priority: optional
+Description: 电话助手授权版本,通话录音,通话记录合并,T9双卡选卡拨号键盘,短信双卡选卡,来去电归属地,黑名单,骚扰拦截,状态栏图标替换,时间格式修改,常用小功能等强大插件
+Author: xybp888
+Depiction: https://apt.htv123.com/view/169
+Name: 电话助手iOS16-正式版(Roothide)
+Sileodepiction: https://apt.htv123.com/sileo/169
 
 Package: com.yourepo.0xash.icleanerpromod
 Version: 0.0.1
