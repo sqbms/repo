@@ -17,6 +17,24 @@ Icon: https://TrollStoreX.Github.io/sileodepiction/FixSet/icon.png
 Name: FixSet RootHide
 Sileodepiction: https://TrollStoreX.Github.io/sileodepiction/FixSet/js.json
 
+Package: cn.octoforce.squidgesturepro
+Version: 2.7.6-1
+Architecture: iphoneos-arm64e
+Maintainer: SquidForce, Backup
+Installed-Size: 6668
+Depends: mobilesubstrate, preferenceloader, firmware (>= 14.0)
+Conflicts: com.lclrc.squidgesture, com.lclrc.squidgesturepro
+Filename: ./debs/SquidGesturePro(激活码)_2.7.6-1_iphoneos-arm64e.deb
+Size: 1789872
+MD5sum: 75e81205eb00fd12cb830dc0d4d499fa
+SHA1: d2455c36d9246dea158ee66e9c7fdbcdfd1c8bcc
+SHA256: 2a3cd3e1932a4861eb82138e35f72df3bf1e3037951e3218f36a5bb5b3bb5bf8
+Section: Tweaks
+Description: Gestures，激活码用户或需要激活码的用户安装此包，非激活码用户不要装!
+Author: SquidForce, Backup
+Name: SquidGesturePro(激活码)
+Sileodepiction: https://lclrc.github.io/repo/depictions/native/cn.octoforce.squidgesturepro/depiction.json
+
 Package: cn.zqbb.fix120hz
 Version: 3.2.1-9
 Architecture: iphoneos-arm64e
@@ -39,6 +57,23 @@ Icon: https://rootless.002599.xyz/web/icon/cn.zqbb.fix120hz
 Name: Hello 120Hz
 Sileodepiction: https://rootless.002599.xyz/web/cn.zqbb.fix120hz
 
+Package: com.82flex.removewidgetbg
+Version: 1.7
+Architecture: iphoneos-arm64e
+Maintainer: Lessica <82flex@gmail.com>
+Installed-Size: 384
+Pre-Depends: rootless-compat (>= 0.9)
+Depends: firmware (>= 15.0), mobilesubstrate, com.opa334.altlist
+Filename: ./debs/Remove Widget Background_1.7_iphoneos-arm64e.deb
+Size: 31944
+MD5sum: 108d7238f72f2eb9b1748a2f65352c00
+SHA1: c7460d425c57a88461a1b92ccf6073f462001936
+SHA256: 2c14f09c1f9028af502497d27bbabfe7a6bef46ad575d5df5c7d049232075a6b
+Section: Tweaks
+Description: Remove the background of the widgets on the home screen.
+Author: Lessica <82flex@gmail.com>
+Name: Remove Widget Background
+
 Package: com.be-huge.floating-view
 Version: 1.5.4-4
 Architecture: iphoneos-arm64e
@@ -55,6 +90,25 @@ Section: Tweaks
 Description: 分屏，不必太复杂，一切从简即可。
 Author: be-huge
 Name: floatingView
+
+Package: com.curtin.pkc.rootless
+Version: 0.7-3
+Architecture: iphoneos-arm64e
+Maintainer: curtinlv@126.com
+Pre-Depends: rootless-compat (>= 0.9)
+Depends: firmware (>= 5.0)
+Filename: ./debs/PKC_无根_0.7-3_iphoneos-arm64e.deb
+Size: 832388
+MD5sum: 929589dc59ead08a2df48b905de55c6f
+SHA1: 84c2e7a8b7f9fe051114160323b57a78e1583bed
+SHA256: eb8945f8f3fd810f75f260c9cf7705713324966fe36a628427b88527f663fa90
+Section: PKC-插件
+Priority: optional
+Homepage: https://github.com/curtinlv
+Description: 群管理Pro、标签Pro、显示群友真名字、群管标识、艾特提醒、动态群昵称、自定义API(图、文本、视频)、消息统计、加密对话、Bark消息推送、定时问候、JD自动签到、好友分析、会话分析、每天60s新闻快报、防撤回、退群监控、步数定时修改、朋友圈特别关注、自动更新微信状态、长头像、消息二次确认、拍一拍二次确认、艾特列表置顶群管理、按群员查找列表置顶群管理、群性别统计、关键词自动回复、转账自动收款、收款自动回复、批量退群、批量修改群昵称、自动通过好友请求、自动互删好友、id加好友、匿名艾特等 【提示: 本项目旨在学习 iOS 逆向的一点实践，不可使用于商业和个人其他意图。若使用不当，均由个人承担。如有侵权，请联系本人删除。】
+Author: Curtin
+Icon: https://raw.githubusercontent.com/curtinlv/PKCUpdateLog/main/img/pkc_4_135x135.png
+Name: PKC_无根
 
 Package: com.dao.filzacrack
 Version: 1.1-8
@@ -142,6 +196,21 @@ Description: Crane 中文修复包(RootHide)。
 Author: 妖刀
 Name: Crane 中文修复包(RootHide)
 
+Package: com.hk.snapper3.cn.rl
+Version: 1.2.1
+Architecture: iphoneos-arm64e
+Maintainer: 妖刀
+Depends: mobilesubstrate
+Filename: ./debs/Snapper3 简体中文包(RootHide)_1.2.1_iphoneos-arm64e.deb
+Size: 5660
+MD5sum: 59fdae69cbf47ffaca89e47c1c57a1b3
+SHA1: 89916885f2aa56ebd73ca25799ef942343e269bd
+SHA256: 4562ef3b154e7079879262645884d6407897dc8efa506b474ac3c4ec4a7eca9b
+Section: 嗨-汉化
+Description: Snapper3 个人自用简体中文包(RootHide)，连同控制中心Snapper3模块也一起汉化了。
+Author: 妖刀
+Name: Snapper3 简体中文包(RootHide)
+
 Package: com.huami.dyyy
 Version: 2.2-4
 Architecture: iphoneos-arm64e
@@ -160,6 +229,24 @@ Homepage: https://github.com/huami1314/DYYY
 Description: 仅供学习交流，请在 24 小时内自觉删除。
 Author: huami
 Name: DYYY
+
+Package: com.jontelang.snapper3
+Version: 1.2.1
+Architecture: iphoneos-arm64e
+Maintainer: Jonathan Winger-lang
+Installed-Size: 4148
+Pre-Depends: rootless-compat (>= 0.9)
+Depends: mobilesubstrate, firmware (>= 14.0), preferenceloader
+Conflicts: com.jontelang.snapper, com.jontelang.snapper2.packix, xyz.cypwn.snapperfr33
+Filename: ./debs/Snapper 3_1.2.1_iphoneos-arm64e.deb
+Size: 1042124
+MD5sum: dded4f0e0f8c19b4ac9f5556f7ccaa7d
+SHA1: 7f22a20e0b1288b4b0606355d78b1a1a93ca0516
+SHA256: cf2a65d3bb481249c3e0366ce9754e844d71ffc64ecc776e3f13af0724145e51
+Section: Tweaks
+Description: Pin screenshots on the screen.
+Author: Jonathan Winger-lang
+Name: Snapper 3
 
 Package: com.lclrc.hammerits
 Version: 1.7.0
@@ -411,6 +498,181 @@ Tag: role::developer
 Author: opa334
 Name: libundirect
 
+Package: com.roothide.manager
+Version: 1.3.1
+Architecture: iphoneos-arm64e
+Maintainer: roothide
+Installed-Size: 900
+Depends: firmware (>= 15.0)
+Filename: ./debs/RootHide Manager_1.3.1_iphoneos-arm64e.deb
+Size: 730636
+MD5sum: 74bb4b27e1dbf6a8d5ef222b986497c4
+SHA1: fe3bf805d0761f64efc037dc9498deb1480d39ee
+SHA256: 9e00225eefa2c545982c9beec4c0f91fccdef53a11693490c49d223784eccd31
+Section: System
+Description: Configuare RootHide's Features
+Author: roothide
+Depiction: https://github.com/roothide/RootHideManagerApp
+Name: RootHide Manager
+Support: https://github.com/roothide/RootHideManagerApp
+
+Package: com.roothide.patcher
+Version: 2.1-1+debug
+Architecture: iphoneos-arm64e
+Maintainer: roothide
+Installed-Size: 4128
+Depends: firmware (>= 15.0), libxar1, ldid, file, dpkg, gawk, plutil (>= 0.2.2-1), uikittools (>= 2.1.6-4)
+Filename: ./debs/RootHide Patcher_2.1-1+debug_iphoneos-arm64e.deb
+Size: 1168768
+MD5sum: 8c1e42341203d910637f80514c0c5871
+SHA1: fb711cec2c9b4ec42cd78e8ff0051cf66d99622b
+SHA256: ea06b589eb2aa6ce265c2edf72ed29bd75e5a2fe0be1f453e60b8c14200c4f84
+Section: Utilities
+Description: patch rootless package to roothide, not work for all packages.
+Author: roothide
+Depiction: https://github.com/roothide/RootHidePatcher
+Icon: https://github.com/roothide/RootHidePatcher/blob/master/derootifier-2-modified.png?raw=true
+Name: RootHide Patcher
+Support: https://github.com/roothide/RootHidePatcher
+
+Package: com.roothide.patchloader
+Version: 0.0.6-7
+Architecture: iphoneos-arm64e
+Maintainer: roothide
+Installed-Size: 132
+Filename: ./debs/PatchLoader_0.0.6-7_iphoneos-arm64e.deb
+Size: 3328
+MD5sum: d94461ad449783fc9d2908bc57ce2102
+SHA1: 975452effc7438bc21acd83502529d71412399a8
+SHA256: 645620375b7663e40d060844eb9c072b63480cbd2279813530d2e98f14e2a854
+Section: System
+Description: RootHide Dynamic Patches Loader
+Tag: role::developer
+Author: roothide
+Name: PatchLoader
+
+Package: com.spark.snowboard
+Version: 1.5.26-Beta4-rootless
+Architecture: iphoneos-arm64e
+Maintainer: Spark
+Installed-Size: 3236
+Pre-Depends: rootless-compat (>= 0.9)
+Depends: mobilesubstrate, preferenceloader
+Conflicts: anemoneteam.anemone, com.anemonetheming.anemone, winterboard
+Replaces: anemoneteam.anemone, com.anemonetheming.anemone, winterboard
+Provides: anemoneteam.anemone, com.anemonetheming.anemone, winterboard
+Filename: ./debs/SnowBoard_1.5.26-Beta4-rootless_iphoneos-arm64e.deb
+Size: 1121100
+MD5sum: 2c7574fefa407d65ebb4a065bdb3a025
+SHA1: dca18932a5bd1bd0c7cba02eaddab9e2d2bb2b7c
+SHA256: 9444122e3764bc5761a8f533afef2beac57c0046c32b4f0b733c8d550fcb3a88
+Section: Tweaks
+Description: Snowboard theming engine
+Author: Spark & Dennis D. Bednarz
+Name: SnowBoard
+
+Package: com.spark.snowboard.dock
+Version: 1.1.3~Beta4-rootless
+Architecture: iphoneos-arm64e
+Maintainer: Spark
+Installed-Size: 440
+Pre-Depends: rootless-compat (>= 0.9)
+Depends: mobilesubstrate, com.spark.snowboard (>= 1.2.100)
+Filename: ./debs/SnowBoard Dock Extension_1.1.3~Beta4-rootless_iphoneos-arm64e.deb
+Size: 33452
+MD5sum: 44d861bd0f0cf1fc35ae631b509f4e1d
+SHA1: 0ae311c86a9bcb9ac539e62ac8d4813e80a86645
+SHA256: 1a87de8ffa5fc888d430434020e3900f95090ccede06cd170ee2957590ab55c9
+Section: SnowBoard Extensions
+Description: Dock for SnowBoard
+Author: Spark
+Name: SnowBoard Dock Extension
+
+Package: com.spark.snowboard.effects
+Version: 1.2.2-Beta2-rootless
+Architecture: iphoneos-arm64e
+Maintainer: Spark
+Installed-Size: 412
+Pre-Depends: rootless-compat (>= 0.9)
+Depends: mobilesubstrate, com.spark.snowboard (>= 1.2.100)
+Filename: ./debs/SnowBoard Icon Effects Extension_1.2.2-Beta2-rootless_iphoneos-arm64e.deb
+Size: 34596
+MD5sum: 3d82dab7436298024c00a71a0918a529
+SHA1: 6d9c915d9885128fa3c1f3cc556daee3848f97b6
+SHA256: 80503735d6c1d18112258323afc925c6b4cc6628c0ca5972357154fa215eb0e8
+Section: SnowBoard Extensions
+Description: Icon Effects for SnowBoard
+Author: Spark
+Name: SnowBoard Icon Effects Extension
+
+Package: com.spark.snowboard.labels
+Version: 1.1.1~Beta4-rootless
+Architecture: iphoneos-arm64e
+Maintainer: Spark
+Installed-Size: 432
+Pre-Depends: rootless-compat (>= 0.9)
+Depends: mobilesubstrate, com.spark.snowboard (>= 1.2.100)
+Filename: ./debs/SnowBoard Labels Extension_1.1.1~Beta4-rootless_iphoneos-arm64e.deb
+Size: 27092
+MD5sum: 00e97f6f559970db7b40e77556f64313
+SHA1: c3de2b924f42c4a092587fb709d3da402a19a028
+SHA256: 35ca8b88bf9cdc3975fe98f5e77aac448276e38128ad04c34d56490182761a79
+Section: SnowBoard Extensions
+Description: Labels for SnowBoard
+Author: Spark
+Name: SnowBoard Labels Extension
+
+Package: com.spark.snowboard.masks
+Version: 1.2.2-Beta2-rootless
+Architecture: iphoneos-arm64e
+Maintainer: Spark
+Installed-Size: 340
+Pre-Depends: rootless-compat (>= 0.9)
+Depends: mobilesubstrate, com.spark.snowboard (>= 1.2.100)
+Filename: ./debs/SnowBoard Icon Masks Extension_1.2.2-Beta2-rootless_iphoneos-arm64e.deb
+Size: 20244
+MD5sum: e998ae98c4541f71d1c6ebf8537df80a
+SHA1: 943aa47ba9f8e7b7af2276638d37659425e4d708
+SHA256: 09003b3c25cf6b6e9e48bc672338f49d8c875369af5159d3c82c7e6a038fb8cd
+Section: SnowBoard Extensions
+Description: Icon masks for SnowBoard
+Author: Spark
+Name: SnowBoard Icon Masks Extension
+
+Package: com.spark.snowboard.settingsicons
+Version: 1.0.26~Beta3-rootless
+Architecture: iphoneos-arm64e
+Maintainer: Spark
+Installed-Size: 340
+Pre-Depends: rootless-compat (>= 0.9)
+Depends: mobilesubstrate, com.spark.snowboard (>= 1.2.100)
+Filename: ./debs/SnowBoard Settings Icons Extension_1.0.26~Beta3-rootless_iphoneos-arm64e.deb
+Size: 19112
+MD5sum: fc11e422c7729d398ea7e5de93576c3d
+SHA1: d54da838c4a3b8cc62af344f328f0effc4e2c0ac
+SHA256: d1c99ec78aac80904f5ff239248f6d563e396f365ab22f5486ce57a39f23057d
+Section: SnowBoard Extensions
+Description: Settings Icons for SnowBoard
+Author: Spark
+Name: SnowBoard Settings Icons Extension
+
+Package: com.spark.snowboard.ui
+Version: 1.3.0~Beta2-rootless
+Architecture: iphoneos-arm64e
+Maintainer: Spark
+Installed-Size: 476
+Pre-Depends: rootless-compat (>= 0.9)
+Depends: mobilesubstrate, com.spark.snowboard (>> 1.2.22)
+Filename: ./debs/SnowBoard UI Extension_1.3.0~Beta2-rootless_iphoneos-arm64e.deb
+Size: 66996
+MD5sum: c4acbdf96b4ea1fbc31ed1c303d10434
+SHA1: adeff65737184b2b71a79acf07e7b9a8088474fa
+SHA256: a75000dad84c3515ca4b52536b7b6a9c93d7f838dda2acf422bb90b5225dd5b1
+Section: SnowBoard Extensions
+Description: UI Extension for SnowBoard
+Author: Spark
+Name: SnowBoard UI Extension
+
 Package: com.squidforce.copyvault
 Version: 1.8.7
 Architecture: iphoneos-arm64e
@@ -503,6 +765,92 @@ Description: Runtime for tweaks built using Orion and Swift
 Tag: role::developer
 Author: Theos Team <theos@kabiroberai.com>
 Name: Orion (iOS 14-17)
+
+Package: org.coolstar.sileo
+Version: 2.5.1-9
+Architecture: iphoneos-arm64e
+Maintainer: Amy While <me@anamy.gay>
+Depends: firmware (>= 11.0), firmware (>= 12.2) | org.swift.libswift (>= 5.0), coreutils (>= 8.30-1), dpkg (>= 1.19.4-1), apt (>= 1.8.2), libzstd1
+Filename: ./debs/Sileo_2.5.1-9_iphoneos-arm64e.deb
+Size: 3940668
+MD5sum: e241837d4d7120172a3d484cce52181e
+SHA1: bbb856015eac8199b0cedbb0f7dd3fd1083a4815
+SHA256: 3e5c5b511f497046cd68f8874eb7a4d4607475984c805a1c3ad8950278fc8b59
+Section: Packaging
+Description: A modern APT package manager frontend
+Author: Amy While <me@anamy.gay>
+Icon: https://getsileo.app/img/icon.png
+Name: Sileo
+Sileodepiction: https://featuredpage.getsileo.app/depiction.json
+
+Package: preferenceloader
+Version: 2.2.6-11+debug
+Architecture: iphoneos-arm64e
+Maintainer: ProcursusTeam <support@procurs.us>
+Installed-Size: 456
+Depends: mobilesubstrate
+Filename: ./debs/PreferenceLoader_2.2.6-11+debug_iphoneos-arm64e.deb
+Size: 26536
+MD5sum: 6f0980a6f7e4cf47166ce2c308937655
+SHA1: 3ce9a08c95531d92cbc048b1a935fc83f4ae25d4
+SHA256: 197afe4adcb52d74317a249b964b67d98fd2819469f2475a2c500067ee1df95b
+Section: System
+Description: load preferences in style
+Author: Dhinak G <dhinak@dhinak.net>
+Name: PreferenceLoader
+
+Package: roothide
+Version: 0.0.9
+Architecture: iphoneos-arm64e
+Essential: yes
+Maintainer: roothide
+Installed-Size: 936
+Depends: libiosexec1 (>= 1.3.1-2)
+Filename: ./debs/roothide core_0.0.9_iphoneos-arm64e.deb
+Size: 40912
+MD5sum: a806d9a97be54984ae370e50f0db2ca5
+SHA1: 3450485371895b3b2ea1c4331adcc18c3057bab5
+SHA256: b5ee2a25297a3ba070779b9d8b4277ffacaf6515d5486373f1eb984a8ab86857
+Section: System
+Priority: required
+Description: roothide core package
+Author: roothide
+Name: roothide core
+
+Package: roothide.patches.filza
+Version: 0.4-15
+Architecture: iphoneos-arm64e
+Maintainer: roothide
+Installed-Size: 268
+Depends: com.roothide.patchloader
+Recommends: com.tigisoftware.filza64bit (= 4.0.1-4~roothide)
+Conflicts: com.tigisoftware.filza64bit (>> 4.0.1-4~roothide), com.tigisoftware.filza64bit (<< 4.0.1-4~roothide)
+Provides: patches-com.tigisoftware.filza64bit (= 4.0.1-4~roothide)
+Filename: ./debs/Patches for Filza 64bit_0.4-15_iphoneos-arm64e.deb
+Size: 30956
+MD5sum: 577e8b88ad3b912898ef9e411c985947
+SHA1: 619173c91104545cc53f8f79d4d53e439382b374
+SHA256: 992daf4f6ef35481ab1ecb06e2e2cf838ebc21f3823bbe1a6587446ec2e83be0
+Section: RootHide Patches
+Description: RootHide Dynamic Patches For Filza
+Author: roothide
+Name: Patches for Filza 64bit
+
+Package: rootless-compat
+Version: 1.7.8
+Architecture: iphoneos-arm64e
+Maintainer: roothide
+Installed-Size: 284
+Depends: com.roothide.patchloader (>= 0.0.4)
+Filename: ./debs/rootless-compat_1.7.8_iphoneos-arm64e.deb
+Size: 39096
+MD5sum: 55b4c1de79be7e2d880a0036e9045011
+SHA1: 941800cd3d8273f5b0cd8bccdddbdc208eeb4c48
+SHA256: 8f5a0636fb1ae589484edf2c13a40cd823fb814252ab9af19d5effdaf6783687
+Section: RootHide Patches
+Description: Compat Layer for Rootless Tweaks
+Author: roothide
+Name: rootless-compat
 
 Package: ws.hbang.alderis
 Version: 1.2.3-8+debug
