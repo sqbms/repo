@@ -403,25 +403,6 @@ Description: Snapper3 个人自用简体中文包(RootHide)，连同控制中心
 Author: 妖刀
 Name: Snapper3 简体中文包(RootHide)
 
-Package: com.huami.dyyy
-Version: 2.2-4
-Architecture: iphoneos-arm64e
-Maintainer: huami
-Installed-Size: 1832
-Pre-Depends: rootless-compat (>= 0.9)
-Depends: firmware (>= 5.0), mobilesubstrate
-Filename: ./debs/DYYY_2.2-4_iphoneos-arm64e.deb
-Size: 336904
-MD5sum: e8e1efa63e2acb2e19e70b262e201ca4
-SHA1: dd7bf06c27471952c0e6176f5049c700152ecb2c
-SHA256: 13bd353c8c6df55d5aef71c89a01cd8873483ca40f708e9a25a78ef1a7479595
-Section: Tweaks
-Priority: optional
-Homepage: https://github.com/huami1314/DYYY
-Description: 仅供学习交流，请在 24 小时内自觉删除。
-Author: huami
-Name: DYYY
-
 Package: com.jontelang.snapper3
 Version: 1.2.1
 Architecture: iphoneos-arm64e
