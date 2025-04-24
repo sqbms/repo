@@ -74,6 +74,23 @@ Description: 左滑返回上一页面
 Author: Mao
 Name: 左滑返回-Rootless
 
+Package: com.25mao.miyou.rootless
+Version: 3.8-4
+Architecture: iphoneos-arm64e
+Maintainer: admin@25mao.com
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 5.0)
+Filename: ./debs/微信助手_3.8-4_无根-1.deb
+Size: 25584464
+MD5sum: c33dde8122a46febd9f9ade6f1cc1a8f
+SHA1: 8ae6df213e18f5cec824265f9642a70ed5dfb130
+SHA256: 7e71f1ec487a8493ced55af77bfcc0689233c4a5f461c6cde7b01a36f30aea8a
+Section: Tweaks
+Priority: optional
+Description: 微信助手
+Author: Mao
+Name: 微信助手
+
 Package: com.25mao.miyou.rootlesss
 Version: 3.8-3
 Architecture: iphoneos-arm64e
