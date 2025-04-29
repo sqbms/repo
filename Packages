@@ -1168,6 +1168,27 @@ Tag: role::developer
 Author: Theos Team <theos@kabiroberai.com>
 Name: Orion (iOS 14-17)
 
+Package: me.nixuge.networkmanager
+Version: 1.4.3
+Architecture: iphoneos-arm64e
+Maintainer: Nixuge
+Installed-Size: 396
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, com.opa334.ccsupport
+Filename: ./debs/me.nixuge.networkmanager_1.4.3_iphoneos-arm64e.deb
+Size: 46008
+MD5sum: 1fb815daa24b832db4f577b8c4bd3015
+SHA1: ae37483270d077c18ef62313edeeb4a593e86ba9
+SHA256: f66ea4231869eb68dc4b07932370d50e4ee74790fa167e35d1affbb43d207bdd
+Section: Control Center (Modules)
+Description: Force 2G/3G/4G/5G connection from the Control Center
+Author: NoisyFlake, Nixuge
+Depiction: http://cydia.nixuge.me/depiction/web/me.nixuge.networkmanager.html
+Icon: http://cydia.nixuge.me/assets/me.nixuge.networkmanager/icon.png
+Moderndepiction: http://cydia.nixuge.me/depiction/native/me.nixuge.networkmanager.json
+Name: NetworkManagerReborn
+Sileodepiction: http://cydia.nixuge.me/depiction/native/me.nixuge.networkmanager.json
+
 Package: org.coolstar.sileo
 Version: 2.5.1-9
 Architecture: iphoneos-arm64e
