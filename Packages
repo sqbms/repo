@@ -147,6 +147,23 @@ Description: Display your touch interactions!
 Author: Lessica <82flex@gmail.com>
 Name: Touch-Viz
 
+Package: com.baiy.keyboardhook
+Version: 2.0-6+debug
+Architecture: iphoneos-arm64e
+Maintainer: baiy(QQ：961666883)
+Installed-Size: 524
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, firmware (>= 15.0)
+Filename: ./debs/输入法com.baiy.keyboardhook_2.0-6+debug_iphoneos-arm64e.deb
+Size: 60878
+MD5sum: 638c11f1e83c0ca42cdf23413082bdae
+SHA1: 89824fbb50d2a1ad9c91a401d8ebbf690f8258f8
+SHA256: 8810ad0f00e34760a0a1367965fa2b5a5071c981b24594ae04cb389e0f87e3d8
+Section: Tweaks
+Description: 关于系统输入法和微信输入法的一些自定义，让键盘更个性化！
+Author: baiy
+Name: KeyboardHook
+
 Package: com.be-huge.floating-view
 Version: 1.5.4-4
 Architecture: iphoneos-arm64e
